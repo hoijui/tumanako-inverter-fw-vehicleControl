@@ -48,6 +48,9 @@ extern "C"
   #include <libopencm3/cm3/common.h>  //u8 etc
 }
 
+#define u32 uint32_t
+#define u8 uint8_t
+
 /* Exported types ------------------------------------------------------------*/
 /* Exported constants --------------------------------------------------------*/
 typedef enum {Input_IGN, Input_START, Input_CRAWL, Input_FWD, Input_REV} Input_T;

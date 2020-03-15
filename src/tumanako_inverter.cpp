@@ -31,7 +31,7 @@
 
 
 //--- Includes -----------------------------------------------------------------
-#include <cmath>
+#include <math.h>
 #include <time.h>
 
 #define STM32F1  //applicable to the STM32F1 series of devices
